@@ -4,7 +4,7 @@ import {
     FaCertificate, FaUsers
 } from "react-icons/fa"
 import React from "react"
-import Portrait from "./assets/Portrait.JPG"
+import Portrait from "./assets/Portrait.jpg"
 
 function Section(props: { icon: React.ComponentType<{ className?: string }>, title: string, children: React.ReactNode }) {
     const { icon: Icon, title, children } = props

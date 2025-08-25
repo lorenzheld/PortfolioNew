@@ -25,11 +25,11 @@ export default function App() {
                 <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center gap-6">
                     <div className="flex-1">
                         <h1 className="text-4xl font-bold text-highlight">Lorenz Held</h1>
-                        <p className="text-sm opacity-80">IMS Schueler</p>
+                        <p className="text-sm opacity-80">IMS Schüler</p>
                         <p className="mt-2 text-sm opacity-80 max-w-3xl">
-                            Motivierter IMS Schueler mit Schwerpunkt Informatik und kaufmaennischer Grundbildung.
+                            Motivierter IMS Schüler mit Schwerpunkt Informatik und kaufmännischer Grundbildung.
                             Erfahrung in Java, Webentwicklung und Leitung von Jugendgruppen.
-                            Zielorientiert, teamfaehig und sicher im Umgang mit Verantwortung.
+                            Zielorientiert, teamfähig und sicher im Umgang mit Verantwortung.
                         </p>
                     </div>
                     <div className="flex-shrink-0">
@@ -73,10 +73,10 @@ export default function App() {
                     <Section icon={FaUser} title="Soft Skills">
                         <div className="flex flex-wrap gap-2">
                             {[
-                                "Teamfaehig",
+                                "Teamfähig",
                                 "Verantwortungsbewusst",
                                 "Problemlösungsorientiert",
-                                "Organisationsfaehigkeit",
+                                "Organisationsfähigkeit",
                                 "Lernbereitschaft",
                             ].map(s => (
                                 <span key={s} className="bg-highlight/20 text-highlight px-3 py-1 rounded-full text-xs">{s}</span>
@@ -110,7 +110,7 @@ export default function App() {
                         <div className="text-sm space-y-1">
                             <p>Deutsch: C2 (Muttersprache)</p>
                             <p>Englisch: B2 (gute Kenntnisse)</p>
-                            <p>Franzoesisch: B1 (Grundkenntnisse)</p>
+                            <p>Französisch: B1 (Grundkenntnisse)</p>
                         </div>
                     </Section>
                 </aside>
@@ -122,13 +122,13 @@ export default function App() {
                             <div>
                                 <div className="flex justify-between"><strong>Informatikmittelschule IMS, Winterthur</strong><span>2023–2025</span></div>
                                 <p className="opacity-80">
-                                    Schwerpunkt Informatik mit kaufmaennischer Grundbildung. Praxisprojekte in Webentwicklung und Java.
+                                    Schwerpunkt Informatik mit kaufmännischer Grundbildung. Praxisprojekte in Webentwicklung und Java.
                                 </p>
                             </div>
                             <div>
                                 <div className="flex justify-between"><strong>Sekundarschule, Pfäffikon ZH</strong><span>2020–2023</span></div>
                                 <p className="opacity-80">
-                                    Abschluss der 3. Sek mit erfolgreicher Aufnahmepruefung an die IMS.
+                                    Abschluss der 3. Sek mit erfolgreicher Aufnahmeprüfung an die IMS.
                                 </p>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ export default function App() {
                             <div>
                                 <div className="flex justify-between"><strong>Foxtrail</strong><span>React</span></div>
                                 <p className="opacity-80">
-                                    <a className="underline" href="https://github.com/lorenzheld/foxtrail/tree/main" target="_blank" rel="noreferrer">Foxtrail</a> ist ein interaktives Web-Projekt, das digitale Schnitzeljagden ermoeglicht. Es ist mit React gemacht und wurde fuer den Praxisunterricht erstellt.
+                                    <a className="underline" href="https://github.com/lorenzheld/foxtrail/tree/main" target="_blank" rel="noreferrer">Foxtrail</a> ist ein interaktives Web-Projekt, das digitale Schnitzeljagden ermöglicht. Es ist mit React gemacht und wurde für den Praxisunterricht erstellt.
                                 </p>
                             </div>
                             <div>
@@ -151,7 +151,7 @@ export default function App() {
                             <div>
                                 <div className="flex justify-between"><strong>Eigener Linux Server</strong><span>Bash</span></div>
                                 <p className="opacity-80">
-                                    Ausserhalb der Schule wurde ein alter Laptop mit Ubuntu-Server installiert, mit einer Domain verbunden und darauf laeuft jetzt das <a className="underline" href="http://lorenzheld.ch" target="_blank" rel="noreferrer">Portfolio</a>.
+                                    Außerhalb der Schule wurde ein alter Laptop mit Ubuntu-Server installiert, mit einer Domain verbunden und darauf läuft jetzt das <a className="underline" href="http://lorenzheld.ch" target="_blank" rel="noreferrer">Portfolio</a>.
                                 </p>
                             </div>
                         </div>
@@ -162,13 +162,13 @@ export default function App() {
                             <div>
                                 <div className="flex justify-between"><strong>Hilfsleiter Jugendgruppe, Rettungsschwimmen Pfäffikon</strong><span>Seit 2023</span></div>
                                 <p className="opacity-80">
-                                    Planung und Durchfuehrung von Trainings fuer Kinder 10 bis 14 Jahre. Foerderung von Teamarbeit und Sicherheitsbewusstsein.
+                                    Planung und Durchführung von Trainings für Kinder 10 bis 14 Jahre. Förderung von Teamarbeit und Sicherheitsbewusstsein.
                                 </p>
                             </div>
                             <div>
                                 <div className="flex justify-between"><strong>Badiaufsicht Saisonjob, Badi Pfäffikon</strong><span>Seit 2021</span></div>
                                 <p className="opacity-80">
-                                    Verantwortlich fuer Sicherheit der Badegaeste durch aktive Ueberwachung.
+                                    Verantwortlich für Sicherheit der Badegäste durch aktive Überwachung.
                                 </p>
                             </div>
                             <div>
